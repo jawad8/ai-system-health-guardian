@@ -4,6 +4,8 @@ __pycache__/
 .venv-guardian/
 *.db
 .pytest_cache/
+pytest-cache-files-*/
+backend/pytest-cache-files-*/
 .env
 node_modules/
 .next/

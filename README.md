@@ -2,6 +2,12 @@
 
 An enterprise-style operations platform for monitoring AI infrastructure, data centers, and blockchain mining sites. Guardian combines real host telemetry, simulated multi-site operations, incident response, data quality, security posture, asset/vendor management, reporting, and an AI operations copilot in one recruiter-ready project.
 
+## Live deployment
+
+- Dashboard: https://ai-system-health-guardian.vercel.app
+- FastAPI: https://ai-system-health-guardian-api.vercel.app
+- API documentation: https://ai-system-health-guardian-api.vercel.app/docs
+
 ## Why this project matters
 
 Modern compute estates fail across layers: hardware, cooling, power, networks, telemetry pipelines, access controls, and vendor handoffs. Guardian presents those layers as one coherent operating picture and demonstrates practical platform engineering skills: observability, APIs, data pipelines, incident management, operational security, documentation, and AI-assisted support.
