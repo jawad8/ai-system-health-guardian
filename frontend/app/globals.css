@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; color: #dce7f3; background:
+    radial-gradient(circle at 75% -10%, rgba(24,117,128,.18), transparent 32%),
+    radial-gradient(circle at 10% 0%, rgba(37,77,113,.16), transparent 28%), #070b12;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #26384c; border-radius: 99px; }
+.card { @apply rounded-2xl border border-line bg-panel/85 shadow-glow backdrop-blur; }
+.label { @apply text-[11px] font-semibold uppercase tracking-[.15em] text-slate-500; }
+.status-dot { @apply inline-block h-2 w-2 rounded-full bg-mint shadow-[0_0_10px_#37e2a4]; }
+.grid-fade {
+  background-image: linear-gradient(rgba(50,80,100,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(50,80,100,.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+button, a { transition: all .18s ease; }
